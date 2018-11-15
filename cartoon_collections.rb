@@ -1,6 +1,11 @@
-collection = ["Doc", "Dopey", "Bashful", "Grumpy"]
-my_each(collection) do |i|
-  puts i
+def roll_call_dwarves(array)
+  i = 0
+ 
+  while i < array.length
+    yield array[i]
+    i = i + 1
+  end
+  array.each_with_index
 end
 
 def summon_captain_planet# code an argument here
