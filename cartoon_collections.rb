@@ -1,7 +1,7 @@
 def roll_call_dwarves
   # Your code here
 end
-bind.pry
+
 def summon_captain_planet# code an argument here
   # Your code here
 end
