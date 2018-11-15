@@ -1,5 +1,5 @@
 dwarves = [1, 2, 3, 4]
-my_each(collection) do |i|
+def roll_call_dwarves(dwarves) do |i|
   puts i
 end
 
