@@ -1,7 +1,8 @@
 def roll_call_dwarves(collection)
   collection = ["Doc", "Dopey", "Bashful", "Grumpy"]
   roll_call_dwarves(collection) do |i|
-  puts i.each_with_index
+    puts i.each_with_index
+  end
 end
 
 def summon_captain_planet# code an argument here
