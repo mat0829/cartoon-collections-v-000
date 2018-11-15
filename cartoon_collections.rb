@@ -1,6 +1,6 @@
 def roll_call_dwarves(collection)
   collection = ["Doc", "Dopey", "Bashful", "Grumpy"]
-roll_call_dwarves(collection) do |i|
+  roll_call_dwarves(collection) do |i|
   puts collection.each_with_index
 end
 
