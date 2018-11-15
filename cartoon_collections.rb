@@ -1,8 +1,6 @@
-def roll_call_dwarves(collection)
-  collection = ["Doc", "Dopey", "Bashful", "Grumpy"]
-  roll_call_dwarves(collection) do |i|
-    puts i.each_with_index
-  end
+dwarves = [1, 2, 3, 4]
+my_each(collection) do |i|
+  puts i
 end
 
 def summon_captain_planet# code an argument here
