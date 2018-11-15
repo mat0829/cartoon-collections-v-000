@@ -5,7 +5,7 @@ def roll_call_dwarves(array)
     yield array[i]
     i = i + 1
   end
-  
+  puts array.each_with_index
 end
 
 def summon_captain_planet# code an argument here
