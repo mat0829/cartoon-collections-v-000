@@ -2,6 +2,7 @@ dwarves = [1, 2, 3, 4]
 def roll_call_dwarves(dwarves) do |i|
   puts i.each_with_index
 end
+end
 
 def summon_captain_planet# code an argument here
   # Your code here
